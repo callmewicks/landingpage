@@ -19,7 +19,7 @@ const articles = [
 ];
 
 const storeSchema = {
-  "@context": "https://schema.org",
+ "@context": "https://schema.org",
   "@type": "ComputerStore",
   name: "Slot Gacor",
   url: "https://www.techmediawhich.com/",
@@ -37,7 +37,7 @@ const storeSchema = {
 
 export default function Home() {
   return (
-    <main id="top">
+   <main id="top">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }} />
       <header className="site-header">
         <div className="container nav-wrap">
@@ -49,13 +49,13 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="hero">
+       <section className="hero">
         <div className="hero-grid" aria-hidden="true"><span /><span /><span /><span /></div>
         <div className="container hero-content">
           <div className="hero-copy">
             <p className="eyebrow"><span className="pulse" /> PARTNER DIGITAL ANDA</p>
             <h1>Slot Gacor dan Deposit via DANA, GoPay, ShopeePay:<br /><em>Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami</em></h1>
-            <p className="hero-desc">Istilah “slot gacor” telah menjadi salah satu frasa paling agresif dalam lanskap konten digital Indonesia dalam beberapa tahun terakhir. Frasa ini muncul di story media sosial, bio profil, caption unggahan singkat, hingga halaman web yang menyamar sebagai situs berita atau portal hiburan. Bersamaan dengan itu, metode deposit melalui dompet digital seperti DANA, GoPay, dan ShopeePay disebut-sebut sebagai “cara mudah” untuk mulai bermain. Artikel ini tidak bertujuan mempromosikan praktik tersebut. Sebaliknya, artikel ini membedah apa yang sebenarnya terjadi di balik promosi “slot gacor”, mengapa klaim teknisnya tidak berdasar, bagaimana modus deposit via e-wallet dan QRIS bekerja, serta apa yang dapat dilakukan untuk melindungi diri dan keluarga dari kerugian finansial maupun hukum.</p>
+            <p className="hero-desc">Istilah “slot gacor” telah menjadi salah satu frasa paling agresif dalam lanskap konten digital Indonesia dalam beberapa tahun terakhir. </p>
             <div className="hero-actions"><a className="button button-primary" href="#produk">Daftar Sekarang<span>↗</span></a><a className="text-link" href="https://wa.me/6281200000000" target="_blank" rel="noreferrer">Tanya tim kami <span>→</span></a></div>
             <div className="hero-note"><span className="note-line" /> Rekomendasi berdasarkan kebutuhan, bukan sekadar tren.</div>
           </div>
@@ -85,11 +85,49 @@ export default function Home() {
 
       <section className="section article-section" id="artikel"><div className="container"><div className="section-heading article-heading"><div><p className="eyebrow dark">WAWASAN DIGITAL / 03</p><h2>Kenali teknologi.<br /><em>Putuskan dengan yakin.</em></h2></div><p className="section-intro">Artikel ringan dan panduan praktis untuk membantu Anda memahami perangkat sebelum menentukan pilihan.</p></div><div className="article-grid">{articles.map((a, i) => <article className="article-card" key={a.title}><div className={`article-art article-art-${i + 1}`}><span>{["PC / GUIDE", "STORAGE / 101", "CARE / TIPS"][i]}</span><b>0{i + 1}</b></div><div className="article-copy"><p className="article-category">{a.category}</p><h3><Link href={a.href}>{a.title}</Link></h3><p>{a.excerpt}</p><Link className="article-link" href={a.href}>Baca artikel <span>→</span></Link></div></article>)}</div></div></section>
 
+      <section className="section seo-content-section" id="panduan-komputer">
+        <div className="container seo-content-layout">
+          <aside className="seo-content-aside">
+            <p className="eyebrow dark">PUSAT INFORMASI / 04</p>
+            <h2>Panduan memilih komputer yang <em>tepat guna.</em></h2>
+            <p className="seo-aside-note">Bekal sederhana sebelum memilih PC, laptop, atau komponen komputer.</p>
+            <nav className="seo-toc" aria-label="Daftar isi panduan">
+              <a href="#tentukan-kebutuhan">01. Tentukan kebutuhan</a>
+              <a href="#kenali-komponen">02. Kenali komponen</a>
+              <a href="#sesuaikan-anggaran">03. Sesuaikan anggaran</a>
+              <a href="#perawatan-komputer">04. Rawat perangkat</a>
+              <a href="#faq-komputer">05. Pertanyaan umum</a>
+            </nav>
+          </aside>
+          <article className="long-form-article">
+            <p className="article-lead">Slot Gacor dan Deposit via DANA, GoPay, ShopeePay: Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami</p>
+
+            <h3 id="tentukan-kebutuhan">Istilah “slot gacor” telah menjadi salah satu frasa paling agresif dalam lanskap konten digital Indonesia dalam beberapa tahun terakhir. Frasa ini muncul di story media sosial, bio profil, caption unggahan singkat, hingga halaman web yang menyamar sebagai situs berita atau portal hiburan. Bersamaan dengan itu, metode deposit melalui dompet digital seperti DANA, GoPay, dan ShopeePay disebut-sebut sebagai “cara mudah” untuk mulai bermain. Artikel ini tidak bertujuan mempromosikan praktik tersebut. Sebaliknya, artikel ini membedah apa yang sebenarnya terjadi di balik promosi “slot gacor”, mengapa klaim teknisnya tidak berdasar, bagaimana modus deposit via e-wallet dan QRIS bekerja, serta apa yang dapat dilakukan untuk melindungi diri dan keluarga dari kerugian finansial maupun hukum.</p>
+
+            <h3 id="kenali-komponen">1. “Gacor” Bukan Istilah Teknis: Anatomi Sebuah Strategi Pemasaran</h3>
+            <p>Kata “gacor” dalam bahasa sehari-hari merujuk pada suara burung yang lantang dan sering berkicau—sebuah metafora yang kemudian dipinjam untuk memberi kesan bahwa suatu permainan “sedang panas” atau “sering memberi kemenangan”. Namun, dalam konteks mesin slot, tidak ada mekanisme teknis yang bernama “gacor”. Yang ada adalah random number generator (RNG), sebuah sistem yang menghasilkan urutan hasil secara acak dan independen.
+
+Penggunaan kata “gacor” adalah trik manipulasi bahasa untuk menyamarkan aktivitas ilegal agar terlihat sah dan dapat dipercaya. Pemasar menggunakan frasa seperti “gacor hari ini” untuk memicu fear of missing out (FOMO)—rasa takut kehilangan momen—agar calon pengguna mengambil keputusan secara impulsif tanpa sempat berpikir kritis. Influencer dan akun media sosial menjadi sasaran utama penyebaran frasa ini, dengan label “game penghasil uang” atau “slot gacor” yang ditempatkan di story atau tautan profil.
+
+Dengan kata lain, “slot gacor” bukan deskripsi tentang kondisi mesin. Ia adalah produk pemasaran yang dirancang untuk menurunkan kewaspadaan dan mendorong tindakan cepat: daftar, deposit, mainkan.</p>
+
+            <h3 id="sesuaikan-anggaran">2. Realitas Teknis: Mengapa Hasil Slot Tidak Dapat “Diprediksi”</h3>
+            <p>Mesin slot modern—baik yang beroperasi secara legal di yurisdiksi tertentu maupun yang dipromosikan secara ilegal—mengandalkan RNG untuk menentukan hasil setiap putaran. RNG menerima sebuah nilai awal (seed) sebagai input dan menghasilkan angka “acak” sebagai output melalui algoritma pseudo-random. Pada mesin slot, urutan hasil dirancang agar secara virtual tidak dapat diprediksi, bahkan oleh operator sekalipun, selama nilai seed yang tepat digunakan.
+
+Implikasinya jelas: hasil putaran sebelumnya tidak mempengaruhi putaran berikutnya. Tidak ada “pola” yang bisa dibaca dari kekalahan beruntun, dan tidak ada “waktu yang tepat” untuk bertaruh. Klaim bahwa deposit melalui DANA, GoPay, atau ShopeePay pada waktu tertentu dapat “meningkatkan peluang menang” tidak memiliki dasar dalam cara kerja mesin. Yang sering terjadi justru sebaliknya: platform memanfaatkan fluktuasi dopamin dan variable reward—pola imbalan yang tidak terduga—untuk membuat pengguna terus mencoba, bahkan setelah kerugian berulang.
+
+Pemahaman tentang realitas teknis ini penting bukan untuk “mengalahkan” sistem, melainkan untuk membongkar premis dasar yang digunakan promosi “slot gacor”. Jika hasil tidak dapat diprediksi, maka janji kemenangan yang dikaitkan dengan metode deposit tertentu adalah ilusi pemasaran, bukan peluang nyata.</p>
+
+          
+
+          
+          </article>
+        </div>
+      </section>
+
       <section className="cta-section"><div className="container cta-inner"><div><p className="eyebrow">MULAI DARI KEBUTUHAN ANDA</p><h2>Setup yang tepat<br /><em>dimulai dari obrolan.</em></h2></div><a className="button button-light" href="https://wa.me/6281200000000" target="_blank" rel="noreferrer">Hubungi Nexa Komputer <span>↗</span></a></div></section>
 
-      <footer className="footer"><div className="container footer-top"><Link className="brand footer-brand" href="/"><span className="brand-mark">N</span><span>NEXA<span className="brand-light">KOMPUTER</span></span></Link><p>Teknologi tepat untuk setiap kemungkinan.</p><a href="mailto:halo@namatokoanda.com">halo@namatokoanda.com ↗</a></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Nexa Komputer. Hak cipta dilindungi.</span><span>Jakarta, Indonesia</span><a href="#top">
-  Kembali ke atas ↑
-</a></div></footer>
+      <footer className="footer"><div className="container footer-top"><Link className="brand footer-brand" href="/"><span className="brand-mark">N</span><span>NEXA<span className="brand-light">KOMPUTER</span></span></Link><p>Teknologi tepat untuk setiap kemungkinan.</p><a href="mailto:halo@namatokoanda.com">halo@namatokoanda.com ↗</a></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Nexa Komputer. Hak cipta dilindungi.</span><span>Jakarta, Indonesia</span><a href="#top">Kembali ke atas ↑</a></div></footer>
     </main>
   );
 }
