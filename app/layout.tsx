@@ -5,6 +5,10 @@ const siteUrl = "https://www.techmediawhich.com/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  verification: {
+    google: "As76EUavFppKH2hILEae8CGk86Eo3QhFlLCt4c8Z3rE",
+  },
+  
   title: {
     default: "Slot Gacor dan Deposit via DANA, GoPay, ShopeePay: Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami",
     template: "%s | Slot Gacor",
