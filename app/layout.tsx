@@ -1,31 +1,31 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://www.namatokoanda.com";
+const siteUrl = "https://www.techmediawhich.com/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Nexa Komputer | Toko Komputer, Laptop & Aksesori",
-    template: "%s | Nexa Komputer",
+    default: "Slot Gacor dan Deposit via DANA, GoPay, ShopeePay: Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami",
+    template: "%s | Slot Gacor",
   },
   description:
-    "Temukan komputer rakitan, laptop, komponen PC, dan aksesori pilihan di Nexa Komputer. Konsultasi kebutuhan perangkat dan dapatkan rekomendasi yang tepat.",
-  applicationName: "Nexa Komputer",
+    "Dalam konteks mesin slot, tidak ada mekanisme teknis yang bernama “gacor”. Yang ada adalah random number generator (RNG), sebuah sistem yang menghasilkan urutan hasil secara acak dan independen",
+  applicationName: "Slot Gacor",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Nexa Komputer | Solusi Komputer untuk Kerja, Belajar & Gaming",
+    title: "Slot Gacor dan Deposit via DANA, GoPay, ShopeePay: Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami",
     description:
-      "Belanja komputer, laptop, komponen, dan aksesori dengan panduan produk yang mudah dipahami.",
+      "Dalam konteks mesin slot, tidak ada mekanisme teknis yang bernama “gacor”. Yang ada adalah random number generator (RNG), sebuah sistem yang menghasilkan urutan hasil secara acak dan independen",
     url: siteUrl,
-    siteName: "Nexa Komputer",
+    siteName: "Slot Gacor",
     locale: "id_ID",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nexa Komputer",
-    description: "Temukan perangkat komputer yang sesuai kebutuhan Anda.",
+    title: "Slot Gacor",
+    description: "Dalam konteks mesin slot, tidak ada mekanisme teknis yang bernama “gacor”. Yang ada adalah random number generator (RNG), sebuah sistem yang menghasilkan urutan hasil secara acak dan independen",
   },
   robots: { index: true, follow: true },
 };
