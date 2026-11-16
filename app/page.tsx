@@ -21,9 +21,9 @@ const articles = [
 const storeSchema = {
   "@context": "https://schema.org",
   "@type": "ComputerStore",
-  name: "Nexa Komputer",
-  url: "https://www.namatokoanda.com",
-  description: "Toko komputer, laptop, komponen PC, dan aksesori.",
+  name: "Slot Gacor",
+  url: "https://www.techmediawhich.com/",
+  description: "Dalam konteks mesin slot, tidak ada mekanisme teknis yang bernama “gacor”. Yang ada adalah random number generator (RNG), sebuah sistem yang menghasilkan urutan hasil secara acak dan independen",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
@@ -41,7 +41,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }} />
       <header className="site-header">
         <div className="container nav-wrap">
-          <Link className="brand" href="/" aria-label="Nexa Komputer beranda"><span className="brand-mark">N</span><span>NEXA<span className="brand-light">KOMPUTER</span></span></Link>
+          <Link className="brand" href="/" aria-label="Nexa Komputer beranda"><span className="brand-mark">S</span><span>SLOT<span className="brand-light">GACOR</span></span></Link>
           <nav aria-label="Navigasi utama">
             <a href="#produk">Produk</a><a href="#keunggulan">Keunggulan</a><a href="#artikel">Artikel</a>
           </nav>
@@ -54,9 +54,9 @@ export default function Home() {
         <div className="container hero-content">
           <div className="hero-copy">
             <p className="eyebrow"><span className="pulse" /> PARTNER DIGITAL ANDA</p>
-            <h1>Teknologi tepat.<br /><em>Potensi tanpa batas.</em></h1>
-            <p className="hero-desc">Temukan komputer, laptop, dan komponen yang sesuai dengan cara Anda bekerja, belajar, dan berkarya. Pilih dengan lebih yakin bersama Nexa Komputer.</p>
-            <div className="hero-actions"><a className="button button-primary" href="#produk">Jelajahi produk <span>↗</span></a><a className="text-link" href="https://wa.me/6281200000000" target="_blank" rel="noreferrer">Tanya tim kami <span>→</span></a></div>
+            <h1>Slot Gacor dan Deposit via DANA, GoPay, ShopeePay:<br /><em>Anatomi Promosi, Risiko, dan Literasi Digital yang Perlu Dipahami</em></h1>
+            <p className="hero-desc">Istilah “slot gacor” telah menjadi salah satu frasa paling agresif dalam lanskap konten digital Indonesia dalam beberapa tahun terakhir. Frasa ini muncul di story media sosial, bio profil, caption unggahan singkat, hingga halaman web yang menyamar sebagai situs berita atau portal hiburan. Bersamaan dengan itu, metode deposit melalui dompet digital seperti DANA, GoPay, dan ShopeePay disebut-sebut sebagai “cara mudah” untuk mulai bermain. Artikel ini tidak bertujuan mempromosikan praktik tersebut. Sebaliknya, artikel ini membedah apa yang sebenarnya terjadi di balik promosi “slot gacor”, mengapa klaim teknisnya tidak berdasar, bagaimana modus deposit via e-wallet dan QRIS bekerja, serta apa yang dapat dilakukan untuk melindungi diri dan keluarga dari kerugian finansial maupun hukum.</p>
+            <div className="hero-actions"><a className="button button-primary" href="#produk">Daftar Sekarang<span>↗</span></a><a className="text-link" href="https://wa.me/6281200000000" target="_blank" rel="noreferrer">Tanya tim kami <span>→</span></a></div>
             <div className="hero-note"><span className="note-line" /> Rekomendasi berdasarkan kebutuhan, bukan sekadar tren.</div>
           </div>
           <div className="hero-art" aria-label="Ilustrasi komputer desktop">
