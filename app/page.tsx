@@ -37,7 +37,7 @@ const storeSchema = {
 
 export default function Home() {
   return (
-    <main>
+    <main id="top">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }} />
       <header className="site-header">
         <div className="container nav-wrap">
@@ -87,7 +87,9 @@ export default function Home() {
 
       <section className="cta-section"><div className="container cta-inner"><div><p className="eyebrow">MULAI DARI KEBUTUHAN ANDA</p><h2>Setup yang tepat<br /><em>dimulai dari obrolan.</em></h2></div><a className="button button-light" href="https://wa.me/6281200000000" target="_blank" rel="noreferrer">Hubungi Nexa Komputer <span>↗</span></a></div></section>
 
-      <footer className="footer"><div className="container footer-top"><Link className="brand footer-brand" href="/"><span className="brand-mark">N</span><span>NEXA<span className="brand-light">KOMPUTER</span></span></Link><p>Teknologi tepat untuk setiap kemungkinan.</p><a href="mailto:halo@namatokoanda.com">halo@namatokoanda.com ↗</a></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Nexa Komputer. Hak cipta dilindungi.</span><span>Jakarta, Indonesia</span><a href="#top" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Kembali ke atas ↑</a></div></footer>
+      <footer className="footer"><div className="container footer-top"><Link className="brand footer-brand" href="/"><span className="brand-mark">N</span><span>NEXA<span className="brand-light">KOMPUTER</span></span></Link><p>Teknologi tepat untuk setiap kemungkinan.</p><a href="mailto:halo@namatokoanda.com">halo@namatokoanda.com ↗</a></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Nexa Komputer. Hak cipta dilindungi.</span><span>Jakarta, Indonesia</span><a href="#top">
+  Kembali ke atas ↑
+</a></div></footer>
     </main>
   );
 }
